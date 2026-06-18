@@ -1,5 +1,37 @@
 # Updates
 
+## 0.1.0
+##### 2026-06-18
+
+### Added
+
+#### New Tool: BehaviorTable
+We are introducing a new tool designed to automate Slash Command behaviors. Behavior Tables are collections of rules and configurations that can be applied to one or more slash commands to define how they interact with specific users, IDs, and execution contexts.
+
+* [Learn more about Disfox BehaviorTables](https://disfox.js.org/docs/disfox/0.1.0/en/Modules/BehaviorTables)
+
+This tool brings greater simplicity and intelligent automation to your codebase. BehaviorTables is currently in active development, and we plan to introduce additional features to expand its capabilities in future updates.
+
+### Updated
+
+#### SlashService
+Command extraction via `SlashService.extractDir()` has been optimized and now accepts extraction option parameters.
+
+Documentation available at: 
+
+#### Optimizations
+Various internal optimizations have been implemented to ensure high performance and low overhead.
+
+#### Error Handling & Architecture
+Enhanced the `DisfoxError` class to provide better organization and more detailed error reporting.
+
+### Removed
+
+#### Deprecated Features
+Legacy and deprecated code paths have been officially discontinued and removed from the framework.
+
+---
+
 ## 0.0.8
 ##### 2026-04-20
 

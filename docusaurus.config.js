@@ -2,21 +2,21 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Disfox Documentation',
+  title: 'Disfox JS',
   tagline: 'Disfox JS Documentation',
-  favicon: 'img/dfx-fav.ico',
+  favicon: '/img/dfx-fav.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://disfox.js.org',
   baseUrl: '/',
 
-  organizationName: 'your-org',
+  organizationName: 'DisfoxJS',
   projectName: 'disfox-docs',
 
   onBrokenLinks: 'throw',
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'pt'],
   },
 
   presets: [
@@ -47,7 +47,7 @@ const config = {
 
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Disfox`,
+      copyright: `© ${new Date().getFullYear()} Disfox`,
     },
 
     prism: {
