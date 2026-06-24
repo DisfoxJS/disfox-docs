@@ -343,3 +343,9 @@ body.homepage nav.navbar {
         margin: 0 auto;
     }
 }
+
+.description {
+    color: #64748b;
+    font-family: 'Arial';
+    font-size: 25px;
+}

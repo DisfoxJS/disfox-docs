@@ -183,8 +183,6 @@ export default function Home() {
               title="JavaScript"
             />
 
-
-          <p className="built-title">Powered by</p>
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
               alt="Node.js"
@@ -192,7 +190,6 @@ export default function Home() {
             />
           </div>
         </section>
-        
 
         <footer className="footer-light">
           <p>© 2026 Disfox</p>
