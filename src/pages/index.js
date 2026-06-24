@@ -168,35 +168,67 @@ export default function Home() {
         </div>
 
         <section className="built-with">
-          <p className="built-title">Built with</p>
-
           <div className="tech-logos">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-              alt="TypeScript"
-              title="TypeScript"
-            />
+            <p className="built-title">Powered by</p>
 
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-              alt="JavaScript"
-              title="JavaScript"
-            />
+            <a
+              href="https://nodejs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                alt="Node.js"
+                title="Node.js"
+              />
+            </a>
 
-
-          <p className="built-title">Powered by</p>
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-              alt="Node.js"
-              title="Node.js"
-            />
+            <a
+              href="https://discord.js.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://icon.icepanel.io/Technology/svg/Discord.js.svg"
+                alt="Discord.js"
+                title="Discord.js"
+              />
+            </a>
           </div>
         </section>
         
 
-        <footer className="footer-light">
-          <p>© 2026 Disfox</p>
-        </footer>
+        <footer className="footer-light" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '20px' }}>
+  
+  {/* Esquerda: Redes Sociais / Font Awesome Icons */}
+  <div className="footer-left" style={{ display: 'flex', gap: '15px' }}>
+    <a href="https://discord.gg/UuZnAuhhP6" target="_blank" rel="noreferrer" aria-label="Discord">
+      <i className="fa-brands fa-discord"></i>
+    </a>
+    <a href="https://github.com/DisfoxJS" target="_blank" rel="noreferrer" aria-label="GitHub">
+      <i className="fa-brands fa-github"></i>
+    </a>
+    <a href="https://npmjs.com/package/disfox" target="_blank" rel="noreferrer" aria-label="NPM">
+      <i className="fa-brands fa-npm"></i>
+    </a>
+  </div>
+
+  {/* Meio: Copyright e Licença MIT */}
+  <div className="footer-center" style={{ textAlign: 'center' }}>
+    <p>© 2026 Disfox. Licensed under the MIT License.</p>
+  </div>
+
+  {/* Direita: Links com setinha para cima */}
+  <div className="footer-right" style={{ display: 'flex', gap: '20px' }}>
+    <a href="https://disfox.js.org/docs/disfox/0.1.0/en/Get-Started/Why%20Disfox" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+      Why Disfox <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: '0.8rem' }}></i>
+    </a>
+    <a href="https://disfox.js.org/docs/disfox/0.1.0/en/Get-Started/install/" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+      Get Started <i className="fa-solid fa-arrow-up-right-from-square" style={{ fontSize: '0.8rem' }}></i>
+    </a>
+  </div>
+
+</footer>
       </main>
     </div>
   );
